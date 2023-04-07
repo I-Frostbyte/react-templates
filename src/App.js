@@ -3,6 +3,7 @@ import Hero from "./pages/Hero";
 import About from "./pages/About";
 import ContactUs from "./pages/ContactUs";
 import FAQs from "./pages/FAQs";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/faqs" element={<FAQs />} />
+          <Route path="/faqs" element={<FAQs />} />          
         </Routes>
       </BrowserRouter>
     </div>

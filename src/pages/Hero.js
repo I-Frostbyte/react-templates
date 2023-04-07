@@ -1,12 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+// import Form from '../components/Form'
+import Home from '../projects/CodeBattles/SecondEditionUI/Home' 
 
 const Hero = () => {
   return (
     <div>
         <Navbar />
-        <div className='py-96'></div>
+        <Home />        
         <Footer />
     </div>
   )
